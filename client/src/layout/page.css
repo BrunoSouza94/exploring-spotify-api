@@ -1,0 +1,32 @@
+body{
+    background-color: #191414;
+    overflow: hidden;
+}
+
+.text-lyrics {
+    color: #FFF;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color:#FFF;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #1DB954;
+    border-radius: 3px;
+}
+
+.player-bar{
+    position: relative;
+    width: 100%;
+    left: 0;
+}
+
+.search-lyrics-container{
+    background-color: rgba(0,0,0, 0.1)
+}
