@@ -6,7 +6,7 @@ const AUTH_URL = "https://accounts.spotify.com/authorize?"
                 + "client_id=2d6969080fb54fd69dc4bbe87ff931a2"
                 + "&response_type=code"
                 + "&redirect_uri=http://localhost:3000" 
-                + "&scope=streaming%20user-read-private%20user-library-read%20user-library-modify%20user-read-playback-state%20user-modify-playback-state"
+                + "&scope=streaming%20user-read-private%20user-library-read%20user-library-modify%20user-read-playback-state%20user-modify-playback-state%20user-read-email";
 
 export default function Login() {
     return (

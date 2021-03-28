@@ -48,7 +48,7 @@ app.post('/refresh', (req, res) => {
                 })
             }
         )
-        .catch((err) => {
+        .catch(() => {
             res.sendStatus(400);
         });
 })
